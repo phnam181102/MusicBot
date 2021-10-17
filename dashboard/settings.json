@@ -1,0 +1,23 @@
+{
+    "website" : {
+      "support": "https://discord.gg/milrato",
+      "domain": ""
+    },
+    "config": {
+        "http": {
+          "port": 80
+        },
+        "https": {
+            "paths": {
+                "privkey": "/etc/letsencrypt/live/your-domain.com/privkey.pem",
+                "fullchain": "/etc/letsencrypt/live/your-domain.com/fullchain.pem",
+                "chain": "/etc/letsencrypt/live/your-domain.com/chain.pem"
+            },
+            "enabled": false,
+            "port": 443
+        },
+        "callback": "http://your-domain.com/callback",
+        "clientID": "897809114183381045",
+        "secret": "nuO7RWkKK9Js0taTyaSi4jE_Xkvg5TCx"
+    }
+  }
